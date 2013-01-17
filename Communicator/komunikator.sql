@@ -1,0 +1,2 @@
+CREATE TABLE "Message" ("messageid" INTEGER PRIMARY KEY  NOT NULL ,"from" VARCHAR,"to" VARCHAR,"message" TEXT);
+CREATE TABLE "User" ("username" VARCHAR PRIMARY KEY  NOT NULL , "password" VARCHAR NOT NULL , "online" BOOL NOT NULL  DEFAULT FALSE, "ip" VARCHAR);
